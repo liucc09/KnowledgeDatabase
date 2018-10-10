@@ -10,6 +10,7 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 - git记住用户名和密码：`git config --global credential.helper store`   
+- 忽略一些文件：使用`.gitignore`文件
 
 ---
 # Reference
