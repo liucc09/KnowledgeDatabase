@@ -11,7 +11,7 @@ git config --global user.name "Your Name"
 ```
 - git记住用户名和密码：`git config --global credential.helper store`   
 - 忽略一些文件：使用`.gitignore`文件
-
+- 设置别名：`git config --global alias.别名 '指定代码'`
 ---
 # Reference
 [Git中文命令合集](https://www.yiibai.com/git)
