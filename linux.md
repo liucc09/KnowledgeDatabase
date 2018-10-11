@@ -23,3 +23,11 @@ nohup java -jar /xxx/xxx/xxx.jar >/dev/null 2>&1 &
 >例如 `scp /var/www/test.php  root@192.168.0.101:/var/www/` 把本机 `/var/www/` 目录下的 `test.php` 文件上传到 `192.168.0.101` 这台服务器上的 `/var/www/` 目录中
 ## 操作整个目录
 `scp -r username@servername:/var/www/remote_dir/（远程目录） /var/www/local_dir（本地目录）`
+
+# 删除文件夹
+- 命令：`rm`
+- -r 就是向下递归，不管有多少级目录，一并删除
+- -f 就是直接强行删除，不作任何提示的意思
+
+实例：
+`rm -rf /opt/svn` 将会删除/opt/svn/目录以及其下所有文件夹，包括文件
