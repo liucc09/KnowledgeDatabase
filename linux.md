@@ -3,6 +3,8 @@
     - [从服务器下载文件](#%E4%BB%8E%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6)
     - [上传本地文件到服务器](#%E4%B8%8A%E4%BC%A0%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8)
     - [操作整个目录](#%E6%93%8D%E4%BD%9C%E6%95%B4%E4%B8%AA%E7%9B%AE%E5%BD%95)
+- [删除文件夹](#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9)
+- [shell script](#shell-script)
 
 # 单独线程后台运行程序且不产生输出文件
 ```bash
@@ -31,3 +33,9 @@ nohup java -jar /xxx/xxx/xxx.jar >/dev/null 2>&1 &
 
 实例：
 `rm -rf /opt/svn` 将会删除/opt/svn/目录以及其下所有文件夹，包括文件
+
+# shell script
+```bash
+#!/bin/bash
+nohup jupyter notebook>/dev/null 2>&1 &
+```
