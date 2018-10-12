@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=Firefox
+Name[zh_CN]=火狐
+Comment=Browse the World Wide Web
+Comment[zh_CN]=浏览网站
+GenericName=Web Browser
+Exec=/opt/firefox/firefox %u
+Icon=/opt/firefox/browser/chrome/icons/default/default128.png
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;
+StartupNotify=true
+Actions=new-empty-window;new-private-window;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Name[zh_CN]=打开新窗口
+Exec=/opt/firefox/firefox --new-window %u
+
+
+[Desktop Action new-private-window]
+Name=Private Window
+Name[zh_CN]=隐私窗口
+Exec=/opt/firefox/firefox --private-window %u
