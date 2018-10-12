@@ -7,6 +7,7 @@
     - [后台运行jupyter notebook](#%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8Cjupyter-notebook)
     - [jupyter notebook 调试技巧](#jupyter-notebook-%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7)
     - [jupyter notebook 中执行 shell 命令](#jupyter-notebook-%E4%B8%AD%E6%89%A7%E8%A1%8C-shell-%E5%91%BD%E4%BB%A4)
+    - [jupyter shell 中访问变量](#jupyter-shell-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%8F%98%E9%87%8F)
 # python
 ## python读写txt
 ```python
@@ -84,3 +85,5 @@ pp | 打印变量的值help帮助
 cd ~
 ls -al
 ```
+## jupyter shell 中访问变量
+`$variable`
