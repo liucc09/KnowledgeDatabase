@@ -7,7 +7,8 @@ for im,ax in zip(ims,axs):
     ime = feature.canny(im)
     ax.imshow(ime, cmap=plt.cm.gray)
     ax.axis('off')
-    
+    ax.set_xlabel('x')
+
 plt.tight_layout()    
 plt.show()
 ```
