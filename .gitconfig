@@ -1,0 +1,9 @@
+[user]
+	email = liucc09@aliyun.com
+	name = liucc
+[credential]
+	helper = store
+[alias]
+	ss = status
+	cmm = commit -m
+	aa = add -A
