@@ -39,3 +39,6 @@ nohup java -jar /xxx/xxx/xxx.jar >/dev/null 2>&1 &
 #!/bin/bash
 nohup jupyter notebook>/dev/null 2>&1 &
 ```
+#解压
+- `tar.gz`:`tar -zxvf ×××.tar.gz`
+- `tar.bz2`:`tar -jxvf ×××.tar.bz2`
