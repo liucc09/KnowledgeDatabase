@@ -42,3 +42,6 @@ nohup jupyter notebook>/dev/null 2>&1 &
 #解压
 - `tar.gz`:`tar -zxvf ×××.tar.gz`
 - `tar.bz2`:`tar -jxvf ×××.tar.bz2`
+
+#解压中文乱码
+- `unzip -O cp936 file.zip`
