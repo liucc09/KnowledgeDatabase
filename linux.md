@@ -5,6 +5,8 @@
     - [操作整个目录](#%E6%93%8D%E4%BD%9C%E6%95%B4%E4%B8%AA%E7%9B%AE%E5%BD%95)
 - [删除文件夹](#%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9)
 - [shell script](#shell-script)
+- [解压](#%E8%A7%A3%E5%8E%8B)
+- [解压中文乱码](#%E8%A7%A3%E5%8E%8B%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81)
 
 # 单独线程后台运行程序且不产生输出文件
 ```bash
@@ -39,9 +41,9 @@ nohup java -jar /xxx/xxx/xxx.jar >/dev/null 2>&1 &
 #!/bin/bash
 nohup jupyter notebook>/dev/null 2>&1 &
 ```
-#解压
+# 解压
 - `tar.gz`:`tar -zxvf ×××.tar.gz`
 - `tar.bz2`:`tar -jxvf ×××.tar.bz2`
 
-#解压中文乱码
+# 解压中文乱码
 - `unzip -O cp936 file.zip`
