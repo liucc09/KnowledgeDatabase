@@ -47,3 +47,13 @@ nohup jupyter notebook>/dev/null 2>&1 &
 
 # 解压中文乱码
 - `unzip -O cp936 file.zip`
+
+#安装deb
+```bash
+sudo dpkg -i name.deb
+```
+
+#查看进程
+```bash
+ps -aux
+```
