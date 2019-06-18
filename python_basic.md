@@ -1,14 +1,14 @@
 - [python](#python)
-    - [python读写txt](#python读写txt)
+  - [python读写txt](#python%E8%AF%BB%E5%86%99txt)
 - [jupyter](#jupyter)
-    - [jupyter拓展组件](#jupyter拓展组件)
-    - [查看本地变量](#查看本地变量)
-    - [重新加载模块](#重新加载模块)
-    - [后台运行jupyter notebook](#后台运行jupyter-notebook)
-    - [jupyter notebook 调试技巧](#jupyter-notebook-调试技巧)
-    - [jupyter notebook 中执行 shell 命令](#jupyter-notebook-中执行-shell-命令)
-    - [jupyter shell 中访问变量](#jupyter-shell-中访问变量)
-    - [jupyter 中使用tqdm进度条](#jupyter-中使用tqdm进度条)
+  - [jupyter拓展组件](#jupyter%E6%8B%93%E5%B1%95%E7%BB%84%E4%BB%B6)
+  - [查看本地变量](#%E6%9F%A5%E7%9C%8B%E6%9C%AC%E5%9C%B0%E5%8F%98%E9%87%8F)
+  - [重新加载模块](#%E9%87%8D%E6%96%B0%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9D%97)
+  - [后台运行jupyter notebook](#%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8Cjupyter-notebook)
+  - [jupyter notebook 调试技巧](#jupyter-notebook-%E8%B0%83%E8%AF%95%E6%8A%80%E5%B7%A7)
+  - [jupyter notebook 中执行 shell 命令](#jupyter-notebook-%E4%B8%AD%E6%89%A7%E8%A1%8C-shell-%E5%91%BD%E4%BB%A4)
+  - [jupyter shell 中访问变量](#jupyter-shell-%E4%B8%AD%E8%AE%BF%E9%97%AE%E5%8F%98%E9%87%8F)
+  - [jupyter 中使用tqdm进度条](#jupyter-%E4%B8%AD%E4%BD%BF%E7%94%A8tqdm%E8%BF%9B%E5%BA%A6%E6%9D%A1)
 # python
 ## python读写txt
 ```python
@@ -77,6 +77,10 @@ exit 或 q | 中止并退出
 next 或 n | 执行下一行
 pp | 打印变量的值help帮助
 - 在出错后输入`%debug`可以查看出错时上下文的变量值
+- 安装pixiedust`pip install pixiedust`
+  `import pixiedust`
+  在单元格上方输入`%%pixie_debugger`
+  `%%pixie_debugger -b find_max 9`设置断点位置
 ## jupyter notebook 中执行 shell 命令
 - 使用 `!` 可以在单独进程中执行命令，不会对上下文产生影响，如`!cd ~`
 - 使用 `%` 可以影响上下文
