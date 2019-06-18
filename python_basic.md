@@ -91,3 +91,14 @@ ls -al
 
 ## jupyter 中使用tqdm进度条
 `from tqdm import tqdm_notebook as tqdm`
+
+## jupyter 分析程序运行时间
+- 使用prun
+```python
+%prun sum_of_list(10000)
+```
+- 使用line_profiler逐行分析
+```python
+%load_ext line_profiler
+%lprun -f sum_of_lists sum_of_lists(5000)
+```
